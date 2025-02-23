@@ -52,27 +52,22 @@ const about = {
         {
           company:"Beryl Brothers Inc.",
           position:"Fullstack Developer",
-          duration:"2021-present"
+          duration:"2024-present"
         },
         {
-          company:"Beryl Brothers Inc.",
-          position:"Fullstack Developer",
-          duration:"2021-present"
+          company:"Akima",
+          position:"Web Developer",
+          duration:"2021-2024"
         },
         {
-          company:"Beryl Brothers Inc.",
+          company:"ElderSource",
           position:"Fullstack Developer",
-          duration:"2021-present"
+          duration:"2020-2021"
         },
         {
-          company:"Beryl Brothers Inc.",
+          company:"Spinspire",
           position:"Fullstack Developer",
-          duration:"2021-present"
-        },
-        {
-          company:"Beryl Brothers Inc.",
-          position:"Fullstack Developer",
-          duration:"2021-present"
+          duration:"2018-2019"
         },
       ]
     }
@@ -86,17 +81,13 @@ const about = {
         {
           institution:"University of North Florida.",
           degree:"Computer Science",
-          duration:"2022-present"
+          duration:"2019-2021"
         },
+
         {
-          institution:"University of North Florida.",
-          degree:"A+ Certificate",
-          duration:"2019-present"
-        },
-        {
-          institution:"University of North Florida.",
+          institution:"Florida State College of Jacksonville.",
           degree:"Associates degree",
-          duration:"2018-present"
+          duration:"2017-2019"
         },
       ]
     }

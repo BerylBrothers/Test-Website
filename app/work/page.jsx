@@ -18,48 +18,48 @@ const projects = [
   {
     num: '01',
     category: 'frontend',
-    title: 'project 1',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta voluptatem commodi. Accusamus, consequuntur tempora!",
+    title: 'Aqua Solutions',
+    description: "The Aqua Solutions website is designed with a clean, modern, and user-friendly interface that reflects the professionalism and reliability of the plumbing company. The website offers a seamless experience for users who are looking for high-quality plumbing services, whether for residential or commercial needs",
     stack:[
       {
-        name:'Html 5'
+        name:'Figma'
       },
       {
-        name:'Css 3'
+        name:'Next.JS'
       },
       {
-        name:'Javascript'
+        name:'Tailwind CSS'
       },
     ],
-      image: '/assets/work/thumb1.png',
+      image: '/assets/work/Web-Screen-1.png',
       live:'',
       github:"",
   },
   {
     num: '02',
     category: 'frontend',
-    title: 'project 2',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta voluptatem commodi. Accusamus, consequuntur tempora!",
+    title: 'The Lotus Garden',
+    description: "The Lotus Garden website features a clean, elegant design that reflects the restaurant's authentic Asian flavors and inviting atmosphere. The interactive menu showcases a variety of dishes with high-quality images and detailed descriptions, while the About Us section shares the restaurant's story and dedication to quality.",
     stack:[
       {
-        name:'Html 5'
+        name:'Figma'
       },
       {
-        name:'TailWind CSS'
+        name:'Next.JS'
       },
       {
         name:'Javascript'
       },
     ],
-      image: '/assets/work/thumb2.png',
+      image: '/assets/work/Web-Screen-2.png',
       live:'',
       github:"",
   },
   {
     num: '03',
     category: 'frontend',
-    title: 'project 3',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta voluptatem commodi. Accusamus, consequuntur tempora!",
+    title: 'Pulse Fitness',
+    description: "I created a sleek and user-friendly website for Pulse Fitness that showcases the gym's offerings in a modern and engaging way. The design emphasizes simplicity and ease of navigation, highlighting key features like membership options, class schedules, and contact information. With a focus on clean visuals and clear calls to action, the website provides an inviting experience for potential members.",
     stack:[
       {
         name:'Next.JS'
@@ -68,10 +68,10 @@ const projects = [
         name:'Tailwind CSS'
       },
       {
-        name:'Javascript'
+        name:'HTML 5'
       },
     ],
-      image: '/assets/work/thumb3.png',
+      image: '/assets/work/Web-Screen-3.png',
       live:'',
       github:"",
   }
@@ -101,7 +101,7 @@ const work = () => {
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white
                group-hover:text-accent transition-all 
-               duration-500 capitalize">{project.category} project
+               duration-500 capitalize">{project.title}
                </h2>
                <p>
                 {project.description}
