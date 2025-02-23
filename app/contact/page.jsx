@@ -273,8 +273,13 @@ const handleSubmit = async (event) => {
 
   formData.append("access_key", "4da46f02-baba-4174-ad4b-62201ba4518d");
 
+  // Log the form data to the console for debugging
+console.log('Form data:', Object.fromEntries(formData));
+
   const object = Object.fromEntries(formData);
   const json = JSON.stringify(object);
+
+  console.log('JSON data:', json);
 
   const response = await fetch("https://api.web3forms.com/submit", {
     method: "POST",
