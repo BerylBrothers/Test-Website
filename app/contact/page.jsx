@@ -286,11 +286,18 @@ const handleSubmit = async (event) => {
   });
 
   const result = await response.json();
-  if (result.success) {
-    console.log(result);
-    alert("Email sent successfully!");
+  if (response.ok) {  // Check if the response is successful (status 200-299)
+    if (result.success) {
+      console.log(result);
+      alert("Email sent successfully!");
+    } else {
+      console.error("Error details:", result);  // Log the error response from the server
+      alert("Error sending email. Please check the console for more details.");
+    }
   } else {
-    alert("Error sending email.");
+    // Handle HTTP errors like 400, 500, etc.
+    console.error("HTTP Error:", response.status, response.statusText);
+    alert(`Error sending email. HTTP error: ${response.status} ${response.statusText}`);
   }
 };
 
